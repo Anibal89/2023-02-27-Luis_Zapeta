@@ -1,0 +1,25 @@
+.btnhover:hover{
+    background-color: #c41717;
+}
+
+.btnhover{
+    padding: 8px 15px;
+    border-radius:5px;
+    border:none;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.btnhover_add:hover{
+    background-color: #c41717;
+}
+
+.btnhover_add{
+    padding: 8px 15px;
+    border-radius:5px;
+    border:none;
+    background-color: rgb(21, 164, 64);
+    color: white;
+    width: 100%;
+}
