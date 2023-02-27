@@ -20,7 +20,7 @@ CREATE TABLE estado (
 
 CREATE TABLE producto (
  Id_Producto INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
- Codigo_Prodcuto INT NOT NULL,
+ Codigo_Producto VARCHAR(50) NOT NULL,
  Nombre_Producto VARCHAR(50) NOT NULL,
  Descripcion_Producto VARCHAR(50) NOT NULL,
  Precio_Producto DOUBLE NOT NULL,
@@ -118,6 +118,3 @@ INSERT INTO sucursal(Nombre_Sucursal, Direccion_Sucursal, Correo_Sucursal, Id_De
 VALUES 
 ('pais sancristobal',' bulevar principal sancristobal','sacrispais@gmail.com',1,'mixco','5158-5822'),
 ('Pais villanueva',' bulevar principal villanueva','paisvillanueva@gmail.com',2,'puerto barrios','5158-5922');
-
-
-
